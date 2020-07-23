@@ -4,15 +4,13 @@ import { BsDiamondFill } from 'react-icons/bs';
 
 function Skills() {
   return (
-    <section className="section bg-light" id="skills">
+    <section className="page-section bg-light" id="skills">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-12">
             <div className="text-center">
-              <h2>
-                <span className="font-weight-bold">Skills</span>
-              </h2>
-              <p className="text-muted mx-auto section-subtitle mt-3"></p>
+              <h2 className="text-center mt-0">Skills</h2>
+              <hr className="divider my-4 cus-divider" />
             </div>
           </div>
         </div>

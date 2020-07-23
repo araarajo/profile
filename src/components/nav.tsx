@@ -26,17 +26,17 @@ function Nav() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#services">
+              <a className="nav-link js-scroll-trigger" href="#skills">
                 Skills
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#portfolio">
-                Resume
+              <a className="nav-link js-scroll-trigger" href="#interests">
+                Interests
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#contact">
+              <a className="nav-link js-scroll-trigger" href="#portfolio">
                 Portfolio
               </a>
             </li>

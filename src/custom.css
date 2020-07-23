@@ -75,3 +75,12 @@ hr.cus-divider {
     height: 20px;
     color: #e65f78;
 }
+.cus-interest {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    color: #e65f78;
+}
+#portfolio .cus-caption {
+    background: rgba(230, 95, 120, 0.9) !important;
+}

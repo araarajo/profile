@@ -3,7 +3,7 @@ import Nav from './components/nav';
 import Home from './components/home';
 import About from './components/about';
 import Skills from './components/skills';
-import Resume from './components/resume';
+import Interests from './components/interests';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 
@@ -14,7 +14,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Resume />
+      <Interests />
       <Portfolio />
       <Contact />
     </Fragment>
