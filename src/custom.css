@@ -1,0 +1,77 @@
+hr.cus-divider {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #e65f78;
+}
+
+.cus-home-title {
+    font-family: "Montserrat", sans-serif;
+}
+
+.cus-bg-primary {
+    background-color: #26282b !important;
+}
+
+.hr-animation {
+    -webkit-animation-name: line-length;
+    -webkit-animation-duration: 2s;
+    animation-name: line-length;
+    animation-duration: 2s;
+}
+
+@keyframes line-length {
+    from {
+        max-width: 3.25rem;
+    }
+    to {
+        max-width: 5.25rem;
+    }
+}
+
+.cus-icon {
+    width: 44px;
+    height: 44px;
+    margin: auto;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cus-icon-js {
+    background-image: url(/images/icons8-javascript-100.png);
+}
+.cus-icon-ts {
+    background-image: url(/images/icons8-typescript-100.png);
+}
+.cus-icon-cpp {
+    background-image: url(/images/icons8-c++-100.png);
+}
+.cus-icon-react {
+    background-image: url(/images/icons8-react-native-100.png);
+}
+.cus-icon-angular {
+    background-image: url(/images/icons8-angularjs-100.png);
+}
+.cus-icon-node {
+    background-image: url(/images/icons8-nodejs-100.png);
+}
+.cus-progress-wrapper {
+    height: 5px;
+}
+.cus-progress {
+    background-color: #26282b;
+}
+
+.cus-progress-60 {
+    width: 60%;
+}
+.cus-progress-80 {
+    width: 80%;
+}
+.cus-progress-100 {
+    width: 100%;
+}
+.cus-cursor {
+    width: 20px;
+    height: 20px;
+    color: #e65f78;
+}
