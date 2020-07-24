@@ -6,6 +6,7 @@ import Skills from './components/skills';
 import Interests from './components/interests';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Interests />
       <Portfolio />
       <Contact />
+      <Footer />
     </Fragment>
   );
 }
