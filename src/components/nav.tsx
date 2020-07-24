@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
       <div className="container">
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">
+        <a className="navbar-brand js-scroll-trigger" href="#root">
           Ara Jo
         </a>
         <button

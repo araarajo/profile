@@ -90,5 +90,37 @@ hr.cus-divider {
 }
 
 #portfolio .cus-caption {
-    background: rgba(230, 95, 120, 0.9) !important;
+    background: rgba(38, 40, 43, 0.9) !important;
+    color: #e65f78 !important;
+    opacity: 1 !important;
+}
+/*#mainNav {*/
+/*    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);*/
+/*    background-color: #26282b;*/
+/*    transition: background-color 0.5s ease;*/
+/*}*/
+.cus-thumb-wrapper {
+
+}
+.cus-thumb {
+    position: relative;
+    padding-top: 75%;
+    overflow: hidden;
+}
+.cus-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
+    opacity: 0 !important;
+}
+.cus-project-detail {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.9rem;
 }
