@@ -5,12 +5,12 @@ import { IoMdPeople } from 'react-icons/io';
 import { MdShoppingCart } from 'react-icons/md';
 import { IconContext } from 'react-icons';
 
-function Interests() {
+const Interests = () => {
   return (
     <section className="page-section" id="interests">
       <div className="container">
         <h2 className="text-center mt-0">Interests</h2>
-        <hr className="divider my-4 cus-divider" />
+        <hr className="divider my-4" />
         <div className="row">
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
@@ -60,6 +60,6 @@ function Interests() {
       </div>
     </section>
   );
-}
+};
 
 export default Interests;

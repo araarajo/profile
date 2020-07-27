@@ -2,7 +2,7 @@ import React from 'react';
 import { IconContext } from 'react-icons';
 import { BsDiamondFill } from 'react-icons/bs';
 
-function Skills() {
+const Skills = () => {
   return (
     <section className="page-section bg-light" id="skills">
       <div className="container">
@@ -10,7 +10,7 @@ function Skills() {
           <div className="col-lg-12">
             <div className="text-center">
               <h2 className="text-center mt-0">Skills</h2>
-              <hr className="divider my-4 cus-divider" />
+              <hr className="divider my-4" />
             </div>
           </div>
         </div>
@@ -147,6 +147,6 @@ function Skills() {
       </div>
     </section>
   );
-}
+};
 
 export default Skills;

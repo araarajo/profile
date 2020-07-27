@@ -1,24 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function Nav() {
+const Nav = () => {
+  const [openNav, setOpenNav] = useState<boolean>(false);
+
+  const handleMenuBtn = () => {
+    setOpenNav(!openNav);
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3 bav" id="mainNav">
       <div className="container">
         <a className="navbar-brand js-scroll-trigger" href="#root">
           Ara Jo
         </a>
         <button
-          className="navbar-toggler navbar-toggler-right"
+          className="navbar-toggler navbar-toggler-right cus-toggler-scrolled"
           type="button"
           data-toggle="collapse"
           data-target="#navbarResponsive"
           aria-controls="navbarResponsive"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={handleMenuBtn}
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon cus-toggler-icon-scrolled"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
+        <div className={`collapse navbar-collapse ${openNav ? 'show' : ''}`} id="navbarResponsive">
           <ul className="navbar-nav ml-auto my-2 my-lg-0">
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#about">
@@ -50,6 +57,6 @@ function Nav() {
       </div>
     </nav>
   );
-}
+};
 
 export default Nav;

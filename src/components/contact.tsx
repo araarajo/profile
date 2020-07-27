@@ -2,12 +2,12 @@ import React from 'react';
 import { FaInstagramSquare, FaGithubSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 
-function Contact() {
+const Contact = () => {
   return (
     <section className="page-section bg-light" id="contact">
       <div className="container">
         <h2 className="text-center mt-0">Contact</h2>
-        <hr className="divider my-4 cus-divider" />
+        <hr className="divider my-4" />
         <div className="row justify-content-center text-center">
           <div className="col-md-12">
             <div className="text-center text-white">
@@ -55,6 +55,6 @@ function Contact() {
       </div>
     </section>
   );
-}
+};
 
 export default Contact;

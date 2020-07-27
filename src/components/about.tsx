@@ -1,13 +1,15 @@
 import React from 'react';
+import useVisible from './common/visible-hooks';
 
-function About() {
+const About = () => {
+  const element = useVisible();
   return (
-    <section className="page-section bg-primary cus-bg-primary" id="about">
+    <section {...element} className="page-section bg-primary cus-bg-primary" id="about">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 text-center">
             <h2 className="text-white mt-0">Hello, I'M Ara Jo.</h2>
-            <hr className="divider light my-4 cus-divider" />
+            <hr className="divider light my-4" />
             <p className="text-white-50 mb-4">
               SK Planet 2016.08 ~ <br />
               LG Electronics 2010.12 ~ 2016.08
@@ -17,6 +19,6 @@ function About() {
       </div>
     </section>
   );
-}
+};
 
 export default About;
