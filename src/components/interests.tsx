@@ -22,7 +22,7 @@ const Interests = () => {
                   <FaCat className={`${visibility ? 'ani-bell' : ''}`} />
                 </div>
               </IconContext.Provider>
-              <h3 className="h4 mb-2">Cat</h3>
+              <h3 className={`h4 mb-2 ${visibility ? 'slide-up' : ''}`}>Cat</h3>
               <p className="text-muted mb-0">#mango #moca #cute #meow</p>
             </div>
           </div>
@@ -33,7 +33,7 @@ const Interests = () => {
                   <GiCookingPot className={`${visibility ? 'ani-bell' : ''}`} />
                 </div>
               </IconContext.Provider>
-              <h3 className="h4 mb-2">Cooking</h3>
+              <h3 className={`h4 mb-2 ${visibility ? 'slide-up delay-1' : ''}`}>Cooking</h3>
               <p className="text-muted mb-0">#eat #yummy #delicious #alcohol</p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Interests = () => {
                   <IoMdPeople className={`${visibility ? 'ani-bell' : ''}`} />
                 </div>
               </IconContext.Provider>
-              <h3 className="h4 mb-2">People</h3>
+              <h3 className={`h4 mb-2 ${visibility ? 'slide-up delay-2' : ''}`}>People</h3>
               <p className="text-muted mb-0">#talking #friends #life #blablabla</p>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Interests = () => {
                   <MdShoppingCart className={`${visibility ? 'ani-bell' : ''}`} />
                 </div>
               </IconContext.Provider>
-              <h3 className="h4 mb-2">Shopping</h3>
+              <h3 className={`h4 mb-2 ${visibility ? 'slide-up delay-3' : ''}`}>Shopping</h3>
               <p className="text-muted mb-0">#flex #online #sale #shipping</p>
             </div>
           </div>

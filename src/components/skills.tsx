@@ -29,7 +29,7 @@ const Skills = () => {
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div className={`progress-bar cus-progress cus-progress-100 ${visibility ? 'slide-100' : ''}`} />
+                  <div className={`progress-bar cus-progress cus-progress-100 ${visibility ? 'progress-100' : ''}`} />
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Skills = () => {
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div className={`progress-bar cus-progress cus-progress-100 ${visibility ? 'slide-100' : ''}`} />
+                  <div className={`progress-bar cus-progress cus-progress-100 ${visibility ? 'progress-100' : ''}`} />
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Skills = () => {
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div className={`progress-bar cus-progress cus-progress-60 ${visibility ? 'slide-60' : ''}`} />
+                  <div className={`progress-bar cus-progress cus-progress-60 ${visibility ? 'progress-60' : ''}`} />
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@ const Skills = () => {
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div className={`progress-bar cus-progress cus-progress-80 ${visibility ? 'slide-80' : ''}`} />
+                  <div className={`progress-bar cus-progress cus-progress-80 ${visibility ? 'progress-80' : ''}`} />
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@ const Skills = () => {
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div className={`progress-bar cus-progress cus-progress-100 ${visibility ? 'slide-100' : ''}`} />
+                  <div className={`progress-bar cus-progress cus-progress-100 ${visibility ? 'progress-100' : ''}`} />
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ const Skills = () => {
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div className={`progress-bar cus-progress cus-progress-80 ${visibility ? 'slide-80' : ''}`} />
+                  <div className={`progress-bar cus-progress cus-progress-80 ${visibility ? 'progress-80' : ''}`} />
                 </div>
               </div>
             </div>
