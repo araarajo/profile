@@ -12,7 +12,7 @@ const About = () => {
             <hr className="divider light my-4" />
             <p className="text-white-50 mb-4">
               Hyundai Motors 2020.12 ~<br />
-              SK Planet 2016.08 ~ 2010.12
+              SK Planet 2016.08 ~ 2020.12
               <br />
               LG Electronics 2010.12 ~ 2016.08
             </p>
