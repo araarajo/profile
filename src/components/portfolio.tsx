@@ -69,7 +69,7 @@ const Portfolio = () => {
               <div className="portfolio-box-caption p-3">
                 <div className="project-category text-white-50">SK Planet</div>
                 <div className="project-name">Chatbot Builder</div>
-                <div className="text-white-75 cus-project-detail">#React #Typescript</div>
+                <div className="text-white-75 cus-project-detail">#React #NextJS #Typescript</div>
               </div>
             </div>
           </div>
