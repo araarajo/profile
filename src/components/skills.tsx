@@ -1,16 +1,19 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
 import { BsDiamondFill } from 'react-icons/bs';
+import useVisible from './common/visible-hooks';
 
 const Skills = () => {
+  const { visibility, ref } = useVisible();
+
   return (
-    <section className="page-section bg-light" id="skills">
+    <section ref={ref} className="page-section bg-light" id="skills">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-12">
             <div className="text-center">
-              <h2 className="text-center mt-0">Skills</h2>
-              <hr className="divider my-4" />
+              <h2 className={`text-center mt-0 ${visibility ? 'slide-in' : ''}`}>Skills</h2>
+              <hr className={`divider my-4 ${visibility ? 'slide-in' : ''}`} />
             </div>
           </div>
         </div>
@@ -22,16 +25,11 @@ const Skills = () => {
                 <h5 className="mb-0">Javascript</h5>
                 <IconContext.Provider value={{ className: 'cus-cursor' }}>
                   <div>
-                    <BsDiamondFill />
+                    <BsDiamondFill className={`${visibility ? 'ani-rotate' : ''}`} />
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div
-                    className="progress-bar cus-progress cus-progress-100"
-                    role="progressbar"
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  />
+                  <div className={`progress-bar cus-progress cus-progress-100 ${visibility ? 'slide-100' : ''}`} />
                 </div>
               </div>
             </div>
@@ -43,16 +41,11 @@ const Skills = () => {
                 <h5 className="mb-0">Typescript</h5>
                 <IconContext.Provider value={{ className: 'cus-cursor' }}>
                   <div>
-                    <BsDiamondFill />
+                    <BsDiamondFill className={`${visibility ? 'ani-rotate' : ''}`} />
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div
-                    className="progress-bar cus-progress cus-progress-100"
-                    role="progressbar"
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  />
+                  <div className={`progress-bar cus-progress cus-progress-100 ${visibility ? 'slide-100' : ''}`} />
                 </div>
               </div>
             </div>
@@ -64,16 +57,11 @@ const Skills = () => {
                 <h5 className="mb-0">C/C++</h5>
                 <IconContext.Provider value={{ className: 'cus-cursor' }}>
                   <div>
-                    <BsDiamondFill />
+                    <BsDiamondFill className={`${visibility ? 'ani-rotate' : ''}`} />
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div
-                    className="progress-bar cus-progress cus-progress-60"
-                    role="progressbar"
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  />
+                  <div className={`progress-bar cus-progress cus-progress-60 ${visibility ? 'slide-60' : ''}`} />
                 </div>
               </div>
             </div>
@@ -87,16 +75,11 @@ const Skills = () => {
                 <h5 className="mb-0">React</h5>
                 <IconContext.Provider value={{ className: 'cus-cursor' }}>
                   <div>
-                    <BsDiamondFill />
+                    <BsDiamondFill className={`${visibility ? 'ani-rotate' : ''}`} />
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div
-                    className="progress-bar cus-progress cus-progress-80"
-                    role="progressbar"
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  />
+                  <div className={`progress-bar cus-progress cus-progress-80 ${visibility ? 'slide-80' : ''}`} />
                 </div>
               </div>
             </div>
@@ -108,16 +91,11 @@ const Skills = () => {
                 <h5 className="mb-0">Angular</h5>
                 <IconContext.Provider value={{ className: 'cus-cursor' }}>
                   <div>
-                    <BsDiamondFill />
+                    <BsDiamondFill className={`${visibility ? 'ani-rotate' : ''}`} />
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div
-                    className="progress-bar cus-progress cus-progress-100"
-                    role="progressbar"
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  />
+                  <div className={`progress-bar cus-progress cus-progress-100 ${visibility ? 'slide-100' : ''}`} />
                 </div>
               </div>
             </div>
@@ -129,16 +107,11 @@ const Skills = () => {
                 <h5 className="mb-0">NodeJS</h5>
                 <IconContext.Provider value={{ className: 'cus-cursor' }}>
                   <div>
-                    <BsDiamondFill />
+                    <BsDiamondFill className={`${visibility ? 'ani-rotate' : ''}`} />
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div
-                    className="progress-bar cus-progress cus-progress-80"
-                    role="progressbar"
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  />
+                  <div className={`progress-bar cus-progress cus-progress-80 ${visibility ? 'slide-80' : ''}`} />
                 </div>
               </div>
             </div>

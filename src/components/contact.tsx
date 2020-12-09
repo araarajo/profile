@@ -1,13 +1,16 @@
 import React from 'react';
 import { FaInstagramSquare, FaGithubSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
+import useVisible from './common/visible-hooks';
 
 const Contact = () => {
+  const { visibility, ref } = useVisible();
+
   return (
-    <section className="page-section bg-light" id="contact">
+    <section ref={ref} className="page-section bg-light" id="contact">
       <div className="container">
-        <h2 className="text-center mt-0">Contact</h2>
-        <hr className="divider my-4" />
+        <h2 className={`text-center mt-0 ${visibility ? 'slide-in' : ''}`}>Contact</h2>
+        <hr className={`divider my-4 ${visibility ? 'slide-in' : ''}`} />
         <div className="row justify-content-center text-center">
           <div className="col-md-12">
             <div className="text-center text-white">

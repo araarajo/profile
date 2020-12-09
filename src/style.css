@@ -228,6 +228,11 @@ header.masthead h1 {
   opacity: 0;
 }
 
+/* contact */
+.list-inline-item:not(:last-child) {
+  margin-right: 0.2rem !important;
+}
+
 /* custom */
 .cus-icon {
   width: 44px;
@@ -304,4 +309,90 @@ header.masthead h1 {
   font-family: 'Merriweather Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
     'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 0.9rem;
+}
+
+/* animation */
+.slide-in {
+  animation-duration: 1.5s;
+  animation-name: slide-in;
+}
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.slide-60 {
+  animation-duration: 3s;
+  animation-name: slide-60;
+}
+@keyframes slide-60 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+.slide-80 {
+  animation-duration: 3s;
+  animation-name: slide-80;
+}
+@keyframes slide-80 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+.slide-100 {
+  animation-duration: 3s;
+  animation-name: slide-100;
+}
+@keyframes slide-100 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.ani-rotate {
+  animation-duration: 0.3s;
+  animation-iteration-count: 10;
+  animation-timing-function: linear;
+  animation-name: ani-rotate;
+}
+@keyframes ani-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ani-bell {
+  animation-name: ani-bell;
+  animation-duration: 0.2s;
+  animation-iteration-count: 5;
+  animation-timing-function: linear;
+}
+
+@keyframes ani-bell {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(13deg);
+  }
+  66% {
+    transform: rotate(-13deg);
+  }
 }

@@ -1,14 +1,16 @@
 import React from 'react';
+import useVisible from './common/visible-hooks';
 
 const Portfolio = () => {
+  const { visibility, ref } = useVisible();
   return (
-    <section className="page-section bg-primary" id="portfolio">
+    <section ref={ref} className="page-section bg-primary" id="portfolio">
       <div className="container-fluid p-0">
         <div className="row justify-content-center">
           <div className="col-lg-12">
             <div className="text-center">
-              <h2 className="text-white text-center mt-0">Portfolio</h2>
-              <hr className="divider my-4" />
+              <h2 className={`text-white text-center mt-0 ${visibility ? 'slide-in' : ''}`}>Portfolio</h2>
+              <hr className={`divider my-4" ${visibility ? 'slide-in' : ''}`} />
             </div>
           </div>
         </div>
