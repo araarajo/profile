@@ -230,7 +230,7 @@ header.masthead h1 {
 
 /* contact */
 .list-inline-item:not(:last-child) {
-  margin-right: 0.2rem !important;
+  margin-right: 0rem !important;
 }
 
 /* custom */
