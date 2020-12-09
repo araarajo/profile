@@ -24,54 +24,54 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <a className="portfolio-box cus-thumb">
+            <div className="portfolio-box cus-thumb">
               <img className="img-fluid cus-image" src="/images/lifestyle.png" alt="" />
               <div className="portfolio-box-caption">
                 <div className="project-category text-white-50">LG Electronics</div>
                 <div className="project-name">Home IoT</div>
                 <div className="text-white-75 cus-project-detail">#Javascript #JQuery #Azure #NodeJS</div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <a className="portfolio-box cus-thumb">
+            <div className="portfolio-box cus-thumb">
               <img className="img-fluid cus-image" src="/images/shoptalk2.jpg" alt="" />
               <div className="portfolio-box-caption">
                 <div className="project-category text-white-50">SK Planet</div>
                 <div className="project-name">Shoptalk</div>
                 <div className="text-white-75 cus-project-detail">#Angular #Typescript</div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <a className="portfolio-box cus-thumb">
+            <div className="portfolio-box cus-thumb">
               <img className="img-fluid cus-image" src="/images/musicmall1.png" alt="" />
               <div className="portfolio-box-caption">
                 <div className="project-category text-white-50">SK Planet</div>
                 <div className="project-name">Musicmall</div>
                 <div className="text-white-75 cus-project-detail">#Angular #Typescript</div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <a className="portfolio-box cus-thumb">
+            <div className="portfolio-box cus-thumb">
               <img className="img-fluid cus-image" src="/images/tworld.jpg" alt="" />
               <div className="portfolio-box-caption">
                 <div className="project-category text-white-50">SK Planet</div>
                 <div className="project-name">T World</div>
                 <div className="text-white-75 cus-project-detail">#Javascript #JQuery #Typescript #NodeJS</div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="col-lg-4 col-sm-6">
-            <a className="portfolio-box cus-thumb">
+            <div className="portfolio-box cus-thumb">
               <img className="img-fluid cus-image" src="/images/chatbot.png" alt="" />
               <div className="portfolio-box-caption p-3">
                 <div className="project-category text-white-50">SK Planet</div>
                 <div className="project-name">Chatbot</div>
                 <div className="text-white-75 cus-project-detail">#React #Typescript</div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>

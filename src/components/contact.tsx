@@ -22,7 +22,7 @@ const Contact = () => {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://github.com/araarajo" target="_blank">
+                  <a href="https://github.com/araarajo" target="_blank" rel="noopener noreferrer">
                     <IconContext.Provider value={{ className: 'cus-contact' }}>
                       <div>
                         <FaGithubSquare />
@@ -40,7 +40,7 @@ const Contact = () => {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="http://instagram.com/mangmoca" target="_blank">
+                  <a href="http://instagram.com/mangmoca" target="_blank" rel="noopener noreferrer">
                     <IconContext.Provider value={{ className: 'cus-contact' }}>
                       <div>
                         <FaInstagramSquare />

@@ -4,7 +4,7 @@ import useVisible from './common/visible-hooks';
 const About = () => {
   const element = useVisible();
   return (
-    <section {...element} className="page-section bg-primary cus-bg-primary" id="about">
+    <section {...element} className="page-section bg-primary" id="about">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 text-center">

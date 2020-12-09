@@ -15,7 +15,7 @@ const Home = () => {
           </div>
           <div className="col-lg-8 align-self-baseline">
             <p className="text-white-75 font-weight-light mb-5">blblblblblblbblblblblblblblblblblblblblblblblblbl</p>
-            <a className="btn btn-xl btn-home btn-outline-custom btn-round-home" href="#about">
+            <a className="btn btn-home" href="#about">
               Find Out More
             </a>
           </div>
