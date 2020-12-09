@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
@@ -142,7 +146,15 @@ header.masthead h1 {
   border-radius: 30px;
   border: 2px solid #f5f5f5;
 }
-
+.header-name {
+  font-size: 54px;
+  font-family: 'Montserrat', sans-serif;
+}
+/* .header-desc {
+  max-width: 500px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.75) !important;
+} */
 /* about */
 .bg-primary {
   background-color: #26282b !important;

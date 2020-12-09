@@ -11,7 +11,9 @@ const About = () => {
             <h2 className="text-white mt-0">Hello, I'M Ara Jo.</h2>
             <hr className="divider light my-4" />
             <p className="text-white-50 mb-4">
-              SK Planet 2016.08 ~ <br />
+              Hyundai Motors 2020.12 ~<br />
+              SK Planet 2016.08 ~ 2010.12
+              <br />
               LG Electronics 2010.12 ~ 2016.08
             </p>
           </div>

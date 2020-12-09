@@ -65,10 +65,10 @@ const Portfolio = () => {
           </div>
           <div className="col-lg-4 col-sm-6">
             <div className="portfolio-box cus-thumb">
-              <img className="img-fluid cus-image" src="/images/chatbot.png" alt="" />
+              <img className="img-fluid cus-image" src="/images/builder.png" alt="" />
               <div className="portfolio-box-caption p-3">
                 <div className="project-category text-white-50">SK Planet</div>
-                <div className="project-name">Chatbot</div>
+                <div className="project-name">Chatbot Builder</div>
                 <div className="text-white-75 cus-project-detail">#React #Typescript</div>
               </div>
             </div>
