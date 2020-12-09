@@ -31,7 +31,7 @@ const Interests = () => {
                 </div>
               </IconContext.Provider>
               <h3 className="h4 mb-2">Cooking</h3>
-              <p className="text-muted mb-0">#eat #yummy #delicious #alchol</p>
+              <p className="text-muted mb-0">#eat #yummy #delicious #alcohol</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
