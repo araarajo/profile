@@ -24,7 +24,7 @@ const Contact = () => {
                     </IconContext.Provider>
                   </a>
                 </li>
-                <li className="list-inline-item">
+                {/* <li className="list-inline-item">
                   <a href="https://github.com/araarajo" target="_blank" rel="noopener noreferrer">
                     <IconContext.Provider value={{ className: 'cus-contact' }}>
                       <div>
@@ -32,7 +32,7 @@ const Contact = () => {
                       </div>
                     </IconContext.Provider>
                   </a>
-                </li>
+                </li> */}
                 <li className="list-inline-item">
                   <a href="mailto:elishaara@gmail.com">
                     <IconContext.Provider value={{ className: 'cus-contact' }}>
