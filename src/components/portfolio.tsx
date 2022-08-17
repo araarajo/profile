@@ -87,6 +87,30 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+          <div className="col-lg-4 col-sm-6">
+            <div className="portfolio-box cus-thumb">
+              <img className="img-fluid cus-image" src="/images/op.png" alt="" />
+              <div className={`portfolio-box-caption ${visibility ? 'opacity-background delay-5' : ''}`}>
+                <div className={`${visibility ? 'opacity-on delay-5' : ''}`}>
+                  <div className="project-category text-white-50">Hyundai Motors.</div>
+                  <div className="project-name">Shucle Operation Tool</div>
+                  <div className="text-white-75 cus-project-detail">#React #Typescript #grpc #redux</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-6">
+            <div className="portfolio-box cus-thumb">
+              <img className="img-fluid cus-image" src="/images/map.png" alt="" />
+              <div className={`portfolio-box-caption ${visibility ? 'opacity-background delay-5' : ''}`}>
+                <div className={`${visibility ? 'opacity-on delay-5' : ''}`}>
+                  <div className="project-category text-white-50">Hyundai Motors.</div>
+                  <div className="project-name">Shucle Map Tool</div>
+                  <div className="text-white-75 cus-project-detail">#React #Typescript</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
