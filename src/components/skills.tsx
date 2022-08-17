@@ -79,7 +79,7 @@ const Skills = () => {
                   </div>
                 </IconContext.Provider>
                 <div className="progress cus-progress-wrapper">
-                  <div className={`progress-bar cus-progress cus-progress-80 ${visibility ? 'progress-80' : ''}`} />
+                  <div className={`progress-bar cus-progress cus-progress-100 ${visibility ? 'progress-100' : ''}`} />
                 </div>
               </div>
             </div>
